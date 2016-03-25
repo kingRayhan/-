@@ -1,0 +1,57 @@
+@font-face{ 
+	font-family: 'siyamrupali';
+	src: url('fonts/siyamrupali_1_01-webfont.eot');
+	src: url('fonts/siyamrupali_1_01-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/siyamrupali_1_01-webfont.woff') format('woff'),
+	     url('fonts/siyamrupali_1_01-webfont.ttf') format('truetype'),
+	     url('fonts/siyamrupali_1_01-webfont.svg#webfont') format('svg');
+}
+@font-face {
+    font-family: 'kalpurushregular';
+    src: url('fonts/kalpurush.eot');
+    src: url('fonts/kalpurush.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kalpurush.woff2') format('woff2'),
+         url('fonts/kalpurush.woff') format('woff'),
+         url('fonts/kalpurush.ttf') format('truetype'),
+         url('fonts/kalpurush.svg#kalpurushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'kalpurushregular';
+    font-size: 20px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: transparent;
+}
+.tbl-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.jakat-table {
+    font-size: 20px;
+}
+
+.havetoGiveZakat {
+    background: #1abc9c;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #A94442;
+    color: #fff;
+}
+
+
+                        .zakat-info-btn{}
+                        .zakat-info-btn ul{
+                            text-align: center;
+                        }
+                        .zakat-info-btn ul li{
+                            display: inline-block;
+                        }
+                        .zakat-info-btn ul li a{
+                            display: block;
+                        }

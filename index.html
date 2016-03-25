@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>যাকাতের হিসাব</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        
+		<div class="container">
+			<div class="row">
+				<div class="com-md-12 col-sm-12 col-xs-12" style="margin-top: 20%;">
+					<h2 class="text-center" style="font-size: 75px;">যাকাতের হিসাব</h2>
+				<div class="zakat-info-btn">
+					<ul>
+					  <li><a class="btn btn-primary btn-lg" href="jakat-conditions.html">যাকাতের শর্তসমূহ</a></li>
+					  <li><a class="btn btn-primary btn-lg" href="distribution-rules.html">যাকাত বণ্টনের খাতসমূহ</a></li>
+					  <li><a class="btn btn-primary btn-lg" href="jakat-calculation-rules.html">যাকাত প্রদানের নিয়ম</a></li>
+					  <li><a class="btn btn-primary btn-lg" href="no-jakat-asset.html">যাকাতমুক্ত সম্পদ</a></li>
+					</ul>
+				</div>
+					<table class="table table-bordered" >
+						<tr class="tr">
+							<td class="tbl-title">সোনার আজকের বাজার দাম(টাকায়)</td>
+							<td>
+
+
+<div class="form-group has-feedback goldPriceGroup" style="margin: 0;padding: 0">
+  <input type="text" class="form-control input-lg" id="goldprice_input" data-placement="top">
+  <span class="glyphicon glyphicon-remove form-control-feedback goldprice-error hidden" aria-hidden="true"></span>
+</div>
+							</td>
+						</tr>
+
+						<tr class="tr">
+							<td class="tbl-title">রূপার আজকের বাজার দাম(টাকায়)</td>
+							<td>
+
+<div class="form-group has-feedback silverPriceGroup" style="margin: 0;padding: 0">
+  <input type="text" class="form-control input-lg" id="silvarprice_input" data-placement="top">
+  <span class="glyphicon glyphicon-remove form-control-feedback silverPrice-error hidden" aria-hidden="true"></span>
+</div>
+							</td>
+						</tr>
+
+						<tr class="tr">
+							<td class="tbl-title">মোট নেসাব পরিমান সম্পদ(টাকায়)</td>
+							<td><input type="number" name="" class="form-control input-lg" id="asset"></td>
+						</tr>
+					</table>
+					<div class="havetoGiveZakat text-center">
+						<!-- DOM will be fill here -->
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/zakat-calc.min.js"></script>
+    </body>
+</html>
